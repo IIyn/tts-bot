@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "dev": "deno run --watch src/main.ts",
+    "dev:allow": "deno run --watch --allow-all src/main.ts",
+    "format": "deno fmt src/**/*",
+    "lint": "deno lint src/**/*"
+  },
+  "imports": {
+    "@discordjs/voice": "npm:@discordjs/voice@^0.17.0",
+    "@std/assert": "jsr:@std/assert@1",
+    "discord.js": "npm:discord.js@^14.16.3",
+    "libsodium-wrappers": "npm:libsodium-wrappers@^0.7.15"
+  },
+  "nodeModulesDir": "auto"
+}
